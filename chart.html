@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjs/lib/browser/math.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 min-h-screen">
+    <div class="container mx-auto px-4 py-24">
+        <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">Equation Chart</h1>
+        <button id="backBtn" class="mb-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-200">
+            Back to Solver
+        </button>
+        <canvas id="equationChart" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
