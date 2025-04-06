@@ -1,0 +1,23 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button styles */
+button {
+    transition: background-color 0.3s ease;
+}
+
+/* Chart styles */
+canvas {
+    max-width: 100%;
+    height: auto;
+}
